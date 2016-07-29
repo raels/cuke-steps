@@ -14,6 +14,9 @@ Currently supported output formats include HTML and Confluence wiki markup.  The
 
 Usage
 -----
+
+You might install with either the gem command or using bundler.
+
 Assuming you installed with Bundler:
 
 > bundle exec cuke-steps \[options\] &lt;directories...&gt;
