@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Generates Gherkin step reference page}
   spec.description   = %q{This gem offers a program to generate a reference index for your Gherkin step definitions.
                           It was written by plaa, and packaged by raels.}
-  spec.homepage      = "https://github.com/raels/cuke-steps/"
+  spec.homepage      = "https://raels.github.io/cuke-steps/"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
