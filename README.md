@@ -12,8 +12,8 @@ Currently supported output formats include HTML and Confluence wiki markup.  The
 
 Usage
 -----
-> # assuming you installed with Bundler  
->
+Assuming you installed with Bundler:
+
 > bundle exec cuke-steps \[options\] &lt;directories...&gt;
 
 In its simplest form:
