@@ -6,9 +6,8 @@ require 'cuke_steps_gem/version'
 Gem::Specification.new do |spec|
   spec.name          = "cuke_steps"
   spec.version       = CukeStepsGem::VERSION
-  spec.authors       = ["plaa"]
+  spec.authors       = ["plaa, packager:raels"]
   spec.email         = [""]
-  spec.packager      = ["Raels"]
 
 
   spec.summary       = %q{Generates Gherkin step reference page}
