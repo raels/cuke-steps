@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/raels/cuke-steps.svg?branch=master)](https://travis-ci.org/raels/cuke-steps)
+
 cuke-steps
 ==========
 
