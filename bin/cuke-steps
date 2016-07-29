@@ -3,9 +3,9 @@
 
 require 'optparse'
 
-require_relative 'step_parser'
-require_relative 'confluence_step_outputter'
-require_relative 'html_step_outputter'
+require 'step_parser'
+require 'confluence_step_outputter'
+require 'html_step_outputter'
 
 
 # Parse command line
