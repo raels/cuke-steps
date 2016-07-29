@@ -12,12 +12,13 @@ Currently supported output formats include HTML and Confluence wiki markup.  The
 
 Usage
 -----
-
-> ruby cuke-steps.rb \[options\] &lt;directories...&gt;
+> # assuming you installed with Bundler  
+>
+> bundle exec cuke-steps \[options\] &lt;directories...&gt;
 
 In its simplest form:
 
-> ruby cuke-steps.rb features/
+> bundle exec cuke-steps features/
 
 Supported options:
 
@@ -38,7 +39,6 @@ The tool supports having step definitions in multiple directories.  It will gene
 TODO
 ----
 
-*  Create a gem out of it
 *  Add options for defining a base URL prefix and postfix, and make the file names in the output link to a source repo or Jenkins workspace
 
 
@@ -49,13 +49,13 @@ Copyright (c) 2012, Sampo Niskanen
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met: 
+modification, are permitted provided that the following conditions are met:
 
 1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer. 
+   list of conditions and the following disclaimer.
 2. Redistributions in binary form must reproduce the above copyright notice,
    this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution. 
+   and/or other materials provided with the distribution.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
 ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
@@ -67,4 +67,3 @@ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
